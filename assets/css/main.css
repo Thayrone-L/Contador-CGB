@@ -368,7 +368,7 @@ body {
     transition: 0.5s;
     letter-spacing: 4px;
     margin-right: auto;
-    top: 100px;
+    margin-top: 50px;
 }
 
 .btn-ronin:hover {
@@ -404,6 +404,7 @@ body {
 /*estilo do botão*/
 
 .neon-bt {
+    position: relative;
     display: inline-block;
     padding: 10px 20px;
     color: #03e9f4;
@@ -413,6 +414,9 @@ body {
     overflow: hidden;
     transition: 0.5s;
     letter-spacing: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30px;
 }
 
 .neon-bt:hover {

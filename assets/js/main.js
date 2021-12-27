@@ -332,3 +332,7 @@ function addLoadEvent(func) {
 
 addLoadEvent(turnOn);
 setInterval(turnOn, 20000);
+
+function miniatura() {
+    varWindow = window.open('mini.html', 'mini', "width=400px, height=380px, top=10, right=0, scrollbars=no,resizable=no")
+}

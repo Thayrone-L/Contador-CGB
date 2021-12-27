@@ -331,5 +331,4 @@ function addLoadEvent(func) {
 }
 
 addLoadEvent(turnOn);
-setInterval(turnOnContato, 20000);
 setInterval(turnOn, 20000);
